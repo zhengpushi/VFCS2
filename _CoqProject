@@ -1,0 +1,58 @@
+# ===================================================================
+# Copyright 2022 Zhengpu Shi
+#  This file is part of VFCS. It is distributed under the MIT
+#  "expat license". You should have recieved a LICENSE file with it.
+# ===================================================================
+
+-R ./VFCS VFCS
+
+-arg -w -arg -notation-overridden
+-arg -w -arg -hiding-delimiting-key
+# -arg -w -arg -deprecated-hint-without-locality
+# -arg -w -arg -redundant-canonical-projection
+-arg -w -arg -ambiguous-paths
+# -arg -w -arg -local-declaration
+# -arg -w -arg -future-coercion-class-field
+# -arg -w -arg -extraction-logical-axiom
+
+# ====== Math ========================================================
+
+# VFCS/Math/VecValFun.v
+# VFCS/Math/MatValFun.v
+
+VFCS/Math/Calculus/Differential.v
+# VFCS/Math/Calculus/DifferentialVVF.v
+# VFCS/Math/Calculus/DifferentialMVF.v
+VFCS/Math/Calculus/DifferentialVector.v
+VFCS/Math/Calculus/Integral.v
+VFCS/Math/Calculus/Calculus.v
+VFCS/Math/Calculus/Calculus_example.v
+
+VFCS/Math/DifferentialEquation/DEbase.v
+VFCS/Math/DifferentialEquation/HomoLDE2.v
+VFCS/Math/DifferentialEquation/HomoLDEn.v
+
+# VFCS/Math/DifferenceEquation/DifferenceEquation.v
+# VFCS/Math/LaplaceTransform/LaplaceTransform.v
+
+# ====== Automatic Control System ====================================
+# VFCS/ACS/Diagram.v
+# VFCS/ACS/DifferentialEquation.v
+# VFCS/ACS/RationalExpression.v
+
+# ====== PS: Propulsion Subsystem =======================================
+VFCS/Propulsion/RAux.v
+VFCS/Propulsion/PSModel.v
+VFCS/Propulsion/PSExtension.v
+VFCS/Propulsion/PS.v
+VFCS/Propulsion/Q1.v
+VFCS/Propulsion/Q2.v
+VFCS/Propulsion/Q3.v
+VFCS/Propulsion/Q4.v
+VFCS/Propulsion/ExtractThis.v
+
+# ====== AR: Attitdue Represeation Subsystem =======================================
+VFCS/AttitudeRepr/AttitudeRepr.v
+
+# ====== CM: Control Model Subsystem =======================================
+VFCS/DynamicModel/ControlModel.v
