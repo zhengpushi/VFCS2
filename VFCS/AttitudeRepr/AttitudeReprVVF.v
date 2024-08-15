@@ -251,7 +251,7 @@ Section eulerAngles.
 End eulerAngles.
 
 (* ocaml代码抽取测试 *)
-Extraction "ocaml_attitudeRepr.ml" b2eMAT eulerRate2angvMAT angv2eulerRateMAT m2l.
+(* Extraction "ocaml_attitudeRepr.ml" b2eMAT eulerRate2angvMAT angv2eulerRateMAT m2l. *)
 
 (* 
   1. 从欧拉角到旋转矩阵
